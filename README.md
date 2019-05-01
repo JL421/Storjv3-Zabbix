@@ -1,5 +1,7 @@
 A Zabbix template for monitoring a Storjv3 node. Uses zabbix_sender to send stats to the Zabbix server defined in your zabbix agent config.
 
+Tested on Ubuntu Server 18.04, but should work on any system with bash 4+
+
 Prerequisites:
 * Linux Server
 * Cron
