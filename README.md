@@ -1,10 +1,10 @@
 A Zabbix template for monitoring a Storjv3 node. Uses zabbix_sender to send stats to the Zabbix server defined in your zabbix agent config.
 
 Prerequisites:
-Linux Server
-Cron
-Zabbix Agent
-Zabbix user added to Docker group
+* Linux Server
+* Cron
+* Zabbix Agent
+* Zabbix user added to Docker group
 
 Steps:
 1) Add Template to Zabbix
