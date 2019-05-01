@@ -11,13 +11,9 @@ Prerequisites:
 Steps:
 1) Add Template to Zabbix
 2) Add script to Storj node.
-
   a) You may want to edit the temp file location to suit your distro. (Defaults to /tmp/zabbix-storagenode-stats)
-  
   b) Update location for Zabbix Agent config if necessary (Defaults to /etc/zabbix/zabbix_agentd.conf)
 3) Chmod +x for the script.
 4) Add to cron task for zabbix user to run the script every minute.
-
   Note: You might be able to run less frequently, but you may have to update the formulas for the storjv3.*.hourly values. I'm not sure if the data showing up less frequently would distort those values or not.
-  
 5) Verify the data is showing up for your node in Zabbix.
