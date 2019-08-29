@@ -19,5 +19,6 @@ Steps:
 4) Add to cron task for zabbix user to run the script every minute.
     1) Note: You might be able to run less frequently, but you may have to update the formulas for the storjv3.*.hourly values. I'm not sure if the data showing up less frequently would distort those values or not.
 5) Add the following line to your config.yaml: console.address: :14002
-    This allows the storage node API to listen on any address, including the host's address. Note: This may be dangerous, the full extent of the API functionality is unknown at this time. It is suggested to not enable this option on nodes directly on the Internet, or to setup ACLs limiting access to this port.
+    1) This allows the storage node API to listen on any address, including the host's address. 
+    2) Note: This may be dangerous, the full extent of the API functionality is unknown at this time. It is suggested to not enable this option on nodes directly on the Internet, or to setup ACLs limiting access to this port.
 6) Verify the data is showing up for your node in Zabbix.
